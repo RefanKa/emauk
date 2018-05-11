@@ -6,19 +6,25 @@ Using namespace std;
 
 Class Email{
   protected:
-  string IsiPesan;
-  string Pengirim;
+  string email;
+  string subjek;
   
   public:
-  Email(string IsiPesan, string Pengirim){
-  this->IsiPesan = IsiPesan;
-  this->Pengirim = Pengirim;
+  Email(string email, string subjek): kirimpesan(teks){
+  this->email = email;
+  this->subjek = subjek;
+  this->teks = teks;
    }
-};
-class Gmail : public Email
-  private:
-  string AlamatEmail;
-  public:
-  Gmail(string IsiPesan, string AlamatEmail):Gmail(IsiPesan, 0){
-  this->AlamatEmail= AlamatEmail;
-  this->Pengirim = Pengirim;
+void main(){
+  cout<<"pesan email"<<endl;
+  cout<<"email tujuan"<<endl;
+  cout<<"subjek"<<endl;
+  }
+  };
+  
+  int main(){
+    pesann= new Email("refan@gmail.com","hei","yosh");
+    pesann->pesan();
+    cout<<endl;
+    delet pesann;
+  }
